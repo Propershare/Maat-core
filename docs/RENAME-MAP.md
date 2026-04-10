@@ -6,7 +6,7 @@ Controlled migration for **propershare/maat-core**. Update this file when a step
 
 | From | To |
 |------|-----|
-| `badlogic/pi-mono` | `propershare/maat-core` |
+| `badlogic/pi-mono` (upstream) | `propershare/maat-core` (this fork) |
 
 ## Product language
 
@@ -27,6 +27,7 @@ Controlled migration for **propershare/maat-core**. Update this file when a step
 | `@mariozechner/pi-mom` | `@propershare/maat-mom` |
 | `@mariozechner/pi-web-ui` | `@propershare/maat-web-ui` |
 | `@mariozechner/pi-pods` | `@propershare/maat-pods` |
+| `@mariozechner/pi` (pods CLI package name on npm) | `@propershare/maat-pods` |
 
 ## CLI
 
@@ -37,6 +38,6 @@ Controlled migration for **propershare/maat-core**. Update this file when a step
 ## Status
 
 - [x] Pass 1: Top-level README, AGENTS, CONTRIBUTING, this map, fork docs
-- [ ] Pass 2: Docs and package READMEs (user-facing text; no import rewrites)
+- [x] Pass 2: Docs and package READMEs (user-facing text; no import rewrites)
 - [ ] Pass 3: Binary/package/workspace naming decisions and scripted updates
 - [ ] Pass 4: `package.json` names, imports, published binaries, examples/tests

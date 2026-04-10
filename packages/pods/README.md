@@ -1,16 +1,16 @@
-# pi
+# MAAT pods
 
-Deploy and manage LLMs on GPU pods with automatic vLLM configuration for agentic workloads.
+Deploy and manage LLMs on GPU pods with automatic vLLM configuration for agentic workloads. (Product: **MAAT Runtime**; published npm name migrates per [`docs/RENAME-MAP.md`](../../docs/RENAME-MAP.md). The CLI command is still `pi` until a binary rename.)
 
 ## Installation
 
 ```bash
-npm install -g @mariozechner/pi
+npm install -g @propershare/maat-pods
 ```
 
-## What is pi?
+## What is MAAT pods?
 
-`pi` simplifies running large language models on remote GPU pods. It automatically:
+The `pi` CLI simplifies running large language models on remote GPU pods. It automatically:
 - Sets up vLLM on fresh Ubuntu pods
 - Configures tool calling for agentic models (Qwen, GPT-OSS, GLM, etc.)
 - Manages multiple models on the same pod with "smart" GPU allocation
@@ -312,7 +312,7 @@ response = client.chat.completions.create(
 
 ```bash
 # Install globally to get pi-agent command
-npm install -g @mariozechner/pi
+npm install -g @propershare/maat-pods
 
 # Use with OpenAI
 pi-agent --api-key sk-... "What is machine learning?"

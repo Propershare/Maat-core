@@ -6,7 +6,7 @@ Prompt templates are Markdown snippets that expand into full prompts. Type `/nam
 
 ## Locations
 
-Pi loads prompt templates from:
+MAAT Runtime loads prompt templates from:
 
 - Global: `~/.pi/agent/prompts/*.md`
 - Project: `.pi/prompts/*.md`

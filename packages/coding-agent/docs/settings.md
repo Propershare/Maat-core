@@ -1,6 +1,6 @@
 # Settings
 
-Pi uses JSON settings files with project settings overriding global settings.
+MAAT Runtime uses JSON settings files with project settings overriding global settings.
 
 | Location | Scope |
 |----------|-------|

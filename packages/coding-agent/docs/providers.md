@@ -1,6 +1,6 @@
 # Providers
 
-Pi supports subscription-based providers via OAuth and API key providers via environment variables or auth file. For each provider, pi knows all available models. The list is updated with every pi release.
+MAAT Runtime supports subscription-based providers via OAuth and API key providers via environment variables or auth file. For each provider, MAAT Runtime knows all available models. The list is updated with every release.
 
 ## Table of Contents
 
@@ -71,7 +71,7 @@ pi
 | MiniMax | `MINIMAX_API_KEY` | `minimax` |
 | MiniMax (China) | `MINIMAX_CN_API_KEY` | `minimax-cn` |
 
-Reference for environment variables and `auth.json` keys: [`const envMap`](https://github.com/badlogic/pi-mono/blob/main/packages/ai/src/env-api-keys.ts) in [`packages/ai/src/env-api-keys.ts`](https://github.com/badlogic/pi-mono/blob/main/packages/ai/src/env-api-keys.ts).
+Reference for environment variables and `auth.json` keys: [`const envMap`](https://github.com/propershare/maat-core/blob/main/packages/ai/src/env-api-keys.ts) in [`packages/ai/src/env-api-keys.ts`](https://github.com/propershare/maat-core/blob/main/packages/ai/src/env-api-keys.ts).
 
 #### Auth File
 

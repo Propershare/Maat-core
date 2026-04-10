@@ -4,7 +4,7 @@
 
 Skills are self-contained capability packages that the agent loads on-demand. A skill provides specialized workflows, setup instructions, helper scripts, and reference documentation for specific tasks.
 
-Pi implements the [Agent Skills standard](https://agentskills.io/specification), warning about violations but remaining lenient.
+MAAT Runtime implements the [Agent Skills standard](https://agentskills.io/specification), warning about violations but remaining lenient.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ Pi implements the [Agent Skills standard](https://agentskills.io/specification),
 
 > **Security:** Skills can instruct the model to perform any action and may include executable code the model invokes. Review skill content before use.
 
-Pi loads skills from:
+MAAT Runtime loads skills from:
 
 - Global:
   - `~/.pi/agent/skills/`
@@ -175,7 +175,7 @@ description: Helps with PDFs.
 
 ## Validation
 
-Pi validates skills against the Agent Skills standard. Most issues produce warnings but still load the skill:
+MAAT Runtime validates skills against the Agent Skills standard. Most issues produce warnings but still load the skill:
 
 - Name doesn't match parent directory
 - Name exceeds 64 characters or contains invalid characters
@@ -229,4 +229,4 @@ cd /path/to/brave-search && npm install
 ## Skill Repositories
 
 - [Anthropic Skills](https://github.com/anthropics/skills) - Document processing (docx, pdf, pptx, xlsx), web development
-- [Pi Skills](https://github.com/badlogic/pi-skills) - Web search, browser automation, Google APIs, transcription
+- [badlogic/pi-skills](https://github.com/badlogic/pi-skills) (upstream examples) — Web search, browser automation, Google APIs, transcription

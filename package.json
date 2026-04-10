@@ -1,5 +1,6 @@
 {
 	"name": "pi-monorepo",
+	"description": "MAAT Core monorepo (MAAT Runtime); workspace name unchanged until package migration — see docs/RENAME-MAP.md",
 	"private": true,
 	"type": "module",
 	"workspaces": [
