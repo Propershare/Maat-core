@@ -1,5 +1,5 @@
 <!-- OSS_WEEKEND_START -->
-# 🏖️ OSS Weekend
+# OSS Weekend
 
 **Issue tracker reopens Monday, April 13, 2026.**
 
@@ -11,53 +11,38 @@ OSS weekend runs Thursday, April 2, 2026 through Monday, April 13, 2026. New iss
 ---
 
 <p align="center">
-  <a href="https://shittycodingagent.ai">
-    <img src="https://shittycodingagent.ai/logo.svg" alt="pi logo" width="128">
-  </a>
+
+# MAAT Core
+
+**MAAT Runtime** — agent runtime, terminal coding harness, and supporting packages for AI-assisted development.
+
 </p>
+
 <p align="center">
   <a href="https://discord.com/invite/3cU7Bz4UPx"><img alt="Discord" src="https://img.shields.io/badge/discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" /></a>
-  <a href="https://github.com/badlogic/pi-mono/actions/workflows/ci.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/badlogic/pi-mono/ci.yml?style=flat-square&branch=main" /></a>
-</p>
-<p align="center">
-  <a href="https://pi.dev">pi.dev</a> domain graciously donated by
-  <br /><br />
-  <a href="https://exe.dev"><img src="packages/coding-agent/docs/images/exy.png" alt="Exy mascot" width="48" /><br />exe.dev</a>
+  <a href="https://github.com/propershare/maat-core/actions/workflows/ci.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/propershare/maat-core/ci.yml?style=flat-square&branch=main" /></a>
 </p>
 
-# Pi Monorepo
+## About this repository
 
-> **Looking for the pi coding agent?** See **[packages/coding-agent](packages/coding-agent)** for installation and usage.
+This repo is **[propershare/maat-core](https://github.com/propershare/maat-core)** — a **MAAT**-aligned fork of the upstream Pi monorepo. It contains the same packages (AI layer, agent core, coding agent CLI, TUI, web UI, Slack bot, pods), rebranded for MAAT product language and Tehuti Lab governance.
 
-Tools for building AI agents and managing LLM deployments.
-
-## Share your OSS coding agent sessions
-
-If you use pi or other coding agents for open source work, please share your sessions.
-
-Public OSS session data helps improve coding agents with real-world tasks, tool use, failures, and fixes instead of toy benchmarks.
-
-For the full explanation, see [this post on X](https://x.com/badlogicgames/status/2037811643774652911).
-
-To publish sessions, use [`badlogic/pi-share-hf`](https://github.com/badlogic/pi-share-hf). Read its README.md for setup instructions. All you need is a Hugging Face account, the Hugging Face CLI, and `pi-share-hf`.
-
-You can also watch [this video](https://x.com/badlogicgames/status/2041151967695634619), where I show how I publish my `pi-mono` sessions.
-
-I regularly publish my own `pi-mono` work sessions here:
-
-- [badlogicgames/pi-mono on Hugging Face](https://huggingface.co/datasets/badlogicgames/pi-mono)
+- **Docs:** [`docs/RENAME-MAP.md`](docs/RENAME-MAP.md) (migration targets), [`docs/MAAT-RUNTIME-SPEC.md`](docs/MAAT-RUNTIME-SPEC.md) (positioning), [`docs/FORK-STRATEGY.md`](docs/FORK-STRATEGY.md) (upstream sync), [`docs/SYSTEM_ARCHITECTURE.md`](docs/SYSTEM_ARCHITECTURE.md) (layout).
+- **Internals:** Package names on disk and npm may still match upstream until a scoped migration; the CLI may still be invoked as `pi` until binaries are renamed. Surfaces and docs use **MAAT** naming first.
 
 ## Packages
 
 | Package | Description |
 |---------|-------------|
-| **[@mariozechner/pi-ai](packages/ai)** | Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) |
-| **[@mariozechner/pi-agent-core](packages/agent)** | Agent runtime with tool calling and state management |
-| **[@mariozechner/pi-coding-agent](packages/coding-agent)** | Interactive coding agent CLI |
-| **[@mariozechner/pi-mom](packages/mom)** | Slack bot that delegates messages to the pi coding agent |
-| **[@mariozechner/pi-tui](packages/tui)** | Terminal UI library with differential rendering |
-| **[@mariozechner/pi-web-ui](packages/web-ui)** | Web components for AI chat interfaces |
-| **[@mariozechner/pi-pods](packages/pods)** | CLI for managing vLLM deployments on GPU pods |
+| **[@propershare/maat-ai](packages/ai)** | Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) |
+| **[@propershare/maat-agent-core](packages/agent)** | Agent runtime with tool calling and state management |
+| **[@propershare/maat-coding-agent](packages/coding-agent)** | Interactive coding agent CLI |
+| **[@propershare/maat-mom](packages/mom)** | Slack bot that delegates messages to the MAAT Coding Agent |
+| **[@propershare/maat-tui](packages/tui)** | Terminal UI library with differential rendering |
+| **[@propershare/maat-web-ui](packages/web-ui)** | Web components for AI chat interfaces |
+| **[@propershare/maat-pods](packages/pods)** | CLI for managing vLLM deployments on GPU pods |
+
+Published npm scopes may still show upstream names until the migration in [`docs/RENAME-MAP.md`](docs/RENAME-MAP.md) completes.
 
 ## Contributing
 
@@ -70,7 +55,7 @@ npm install          # Install all dependencies
 npm run build        # Build all packages
 npm run check        # Lint, format, and type check
 ./test.sh            # Run tests (skips LLM-dependent tests without API keys)
-./pi-test.sh         # Run pi from sources (can be run from any directory)
+./pi-test.sh         # Run the coding agent from sources (can be run from any directory)
 ```
 
 > **Note:** `npm run check` requires `npm run build` to be run first. The web-ui package uses `tsc` which needs compiled `.d.ts` files from dependencies.
