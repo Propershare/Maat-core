@@ -5,7 +5,7 @@ See [AGENTS.md](../../../AGENTS.md) for additional guidelines.
 ## Setup
 
 ```bash
-git clone https://github.com/propershare/maat-core
+git clone https://github.com/Propershare/Maat-core
 cd maat-core
 npm install
 npm run build

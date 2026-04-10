@@ -1,4 +1,4 @@
-# Fork strategy (propershare/maat-core)
+# Fork strategy (Propershare/Maat-core)
 
 ## Goals
 
@@ -9,7 +9,7 @@
 ## Upstream
 
 - **Source:** Pi monorepo lineage (historically `badlogic/pi-mono`).
-- **This fork:** [`propershare/maat-core`](https://github.com/propershare/maat-core).
+- **This fork:** [`Propershare/Maat-core`](https://github.com/Propershare/Maat-core).
 
 ## Workflow
 

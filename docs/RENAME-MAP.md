@@ -1,12 +1,12 @@
 # Rename Map
 
-Controlled migration for **propershare/maat-core**. Update this file when a step completes.
+Controlled migration for **Propershare/Maat-core**. Update this file when a step completes.
 
 ## Repo
 
 | From | To |
 |------|-----|
-| `badlogic/pi-mono` (upstream) | `propershare/maat-core` (this fork) |
+| `badlogic/pi-mono` (upstream) | `Propershare/Maat-core` (this fork) |
 
 ## Product language
 

@@ -1,6 +1,6 @@
 # MAAT Runtime — product spec (fork)
 
-This document defines **product language** for the **propershare/maat-core** fork. It does not change runtime behavior by itself; behavior stays aligned with upstream until renamed binaries and packages ship.
+This document defines **product language** for the **Propershare/Maat-core** fork. It does not change runtime behavior by itself; behavior stays aligned with upstream until renamed binaries and packages ship.
 
 ## Name
 

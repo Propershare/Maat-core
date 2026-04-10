@@ -20,12 +20,12 @@ OSS weekend runs Thursday, April 2, 2026 through Monday, April 13, 2026. New iss
 
 <p align="center">
   <a href="https://discord.com/invite/3cU7Bz4UPx"><img alt="Discord" src="https://img.shields.io/badge/discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" /></a>
-  <a href="https://github.com/propershare/maat-core/actions/workflows/ci.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/propershare/maat-core/ci.yml?style=flat-square&branch=main" /></a>
+  <a href="https://github.com/Propershare/Maat-core/actions/workflows/ci.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Propershare/Maat-core/ci.yml?style=flat-square&branch=main" /></a>
 </p>
 
 ## About this repository
 
-This repo is **[propershare/maat-core](https://github.com/propershare/maat-core)** — a **MAAT**-aligned fork of the upstream Pi monorepo. It contains the same packages (AI layer, agent core, coding agent CLI, TUI, web UI, Slack bot, pods), rebranded for MAAT product language and Tehuti Lab governance.
+This repo is **[Propershare/Maat-core](https://github.com/Propershare/Maat-core)** — a **MAAT**-aligned fork of the upstream Pi monorepo. It contains the same packages (AI layer, agent core, coding agent CLI, TUI, web UI, Slack bot, pods), rebranded for MAAT product language and Tehuti Lab governance.
 
 - **Docs:** [`docs/RENAME-MAP.md`](docs/RENAME-MAP.md) (migration targets), [`docs/MAAT-RUNTIME-SPEC.md`](docs/MAAT-RUNTIME-SPEC.md) (positioning), [`docs/FORK-STRATEGY.md`](docs/FORK-STRATEGY.md) (upstream sync), [`docs/SYSTEM_ARCHITECTURE.md`](docs/SYSTEM_ARCHITECTURE.md) (layout).
 - **Internals:** Package names on disk and npm may still match upstream until a scoped migration; the CLI may still be invoked as `pi` until binaries are renamed. Surfaces and docs use **MAAT** naming first.
