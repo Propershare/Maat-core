@@ -81,8 +81,8 @@ To test the coding agent TUI in a controlled terminal environment:
 # Create tmux session with specific dimensions
 tmux new-session -d -s maat-test -x 80 -y 24
 
-# Start from source (set MAAT_CORE_ROOT to your clone of Propershare/Maat-core)
-tmux send-keys -t maat-test "cd \"${MAAT_CORE_ROOT:-$PWD}\" && ./pi-test.sh" Enter
+# Start from source (set MAAT_RUNTIME_ROOT to your clone of Propershare/Maat-runtime)
+tmux send-keys -t maat-test "cd \"${MAAT_RUNTIME_ROOT:-${MAAT_CORE_ROOT:-$PWD}}\" && ./pi-test.sh" Enter
 
 # Wait for startup, then capture output
 sleep 3 && tmux capture-pane -t maat-test -p
@@ -123,8 +123,8 @@ Use these sections under `## [Unreleased]`:
 - Each version section is immutable once released
 
 ### Attribution
-- **Internal changes (from issues)**: `Fixed foo bar ([#123](https://github.com/Propershare/Maat-core/issues/123))`
-- **External contributions**: `Added feature X ([#456](https://github.com/Propershare/Maat-core/pull/456) by [@username](https://github.com/username))`
+- **Internal changes (from issues)**: `Fixed foo bar ([#123](https://github.com/Propershare/Maat-runtime/issues/123))`
+- **External contributions**: `Added feature X ([#456](https://github.com/Propershare/Maat-runtime/pull/456) by [@username](https://github.com/username))`
 
 ## Adding a New LLM Provider (packages/ai)
 

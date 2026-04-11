@@ -50,5 +50,5 @@ Sections (in order):
 - `### Removed` - Removed features
 
 Attribution:
-- Internal: `Fixed foo ([#123](https://github.com/Propershare/Maat-core/issues/123))`
-- External: `Added bar ([#456](https://github.com/Propershare/Maat-core/pull/456) by [@user](https://github.com/user))`
+- Internal: `Fixed foo ([#123](https://github.com/Propershare/Maat-runtime/issues/123))`
+- External: `Added bar ([#456](https://github.com/Propershare/Maat-runtime/pull/456) by [@user](https://github.com/user))`

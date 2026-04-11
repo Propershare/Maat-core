@@ -1,6 +1,6 @@
-# System architecture (MAAT Core)
+# System architecture (MAAT Runtime)
 
-High-level layout of the **maat-core** monorepo. Package **folder** names match the upstream layout; **npm names** migrate per [`RENAME-MAP.md`](RENAME-MAP.md).
+High-level layout of the **maat-runtime** monorepo. Package **folder** names match the upstream layout; **npm names** migrate per [`RENAME-MAP.md`](RENAME-MAP.md).
 
 ## Layers
 

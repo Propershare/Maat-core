@@ -19,8 +19,8 @@ SUBSTITUTIONS: list[tuple[str, str]] = [
     ("@mariozechner/pi-tui", "@propershare/maat-tui"),
     ("@mariozechner/pi-mom", "@propershare/maat-mom"),
     ("@mariozechner/pi-pods", "@propershare/maat-pods"),
-    ("github.com/badlogic/pi-mono", "github.com/Propershare/Maat-core"),
-    ("badlogic/pi-mono", "Propershare/Maat-core"),
+    ("github.com/badlogic/pi-mono", "github.com/Propershare/Maat-runtime"),
+    ("badlogic/pi-mono", "Propershare/Maat-runtime"),
     ("@mariozechner/pi-agent)", "@propershare/maat-agent-core)"),
     ("package/@mariozechner/pi-agent", "package/@propershare/maat-agent-core"),
 ]

@@ -1,4 +1,4 @@
-# Fork strategy (Propershare/Maat-core)
+# Fork strategy (Propershare/Maat-runtime)
 
 ## Goals
 
@@ -9,7 +9,7 @@
 ## Upstream
 
 - **Source:** Pi monorepo lineage (historically `badlogic/pi-mono`).
-- **This fork:** [`Propershare/Maat-core`](https://github.com/Propershare/Maat-core).
+- **This fork:** [`Propershare/Maat-runtime`](https://github.com/Propershare/Maat-runtime).
 
 ## Workflow
 
@@ -19,4 +19,4 @@
 
 ## GitHub metadata
 
-Set the repository **description** and **About** section to reflect MAAT (e.g. “MAAT Core — MAAT Runtime monorepo (fork)”). Topics might include: `maat`, `ai`, `agent`, `terminal`, `llm`. Local git metadata cannot set GitHub About text; update it in the GitHub UI or API.
+Set the repository **description** and **About** section to reflect MAAT (e.g. “MAAT Runtime monorepo — Pi upstream fork”). Topics might include: `maat`, `ai`, `agent`, `terminal`, `llm`. Local git metadata cannot set GitHub About text; update it in the GitHub UI or API.

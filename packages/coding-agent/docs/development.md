@@ -5,8 +5,8 @@ See [AGENTS.md](../../../AGENTS.md) for additional guidelines.
 ## Setup
 
 ```bash
-git clone https://github.com/Propershare/Maat-core
-cd maat-core
+git clone https://github.com/Propershare/Maat-runtime
+cd maat-runtime
 npm install
 npm run build
 ```
@@ -14,7 +14,7 @@ npm run build
 Run from source:
 
 ```bash
-/path/to/maat-core/pi-test.sh
+/path/to/maat-runtime/pi-test.sh
 ```
 
 The script can be run from any directory. MAAT Runtime keeps the caller's current working directory.

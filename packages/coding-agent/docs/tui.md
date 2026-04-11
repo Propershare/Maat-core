@@ -4,7 +4,7 @@
 
 Extensions and custom tools can render custom TUI components for interactive user interfaces. This page covers the component system and available building blocks.
 
-**Source:** [`@propershare/maat-tui`](https://github.com/Propershare/Maat-core/tree/main/packages/tui)
+**Source:** [`@propershare/maat-tui`](https://github.com/Propershare/Maat-runtime/tree/main/packages/tui)
 
 ## Component Interface
 
