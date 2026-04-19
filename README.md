@@ -28,7 +28,9 @@ OSS weekend runs Thursday, April 2, 2026 through Monday, April 13, 2026. New iss
 This repo is **[Propershare/Maat-runtime](https://github.com/Propershare/Maat-runtime)** — a **MAAT**-aligned fork of the upstream Pi monorepo. It contains the same packages (AI layer, agent core, coding agent CLI, TUI, web UI, Slack bot, pods), rebranded for MAAT product language and Tehuti Lab governance.
 
 - **Docs:** [`docs/RENAME-MAP.md`](docs/RENAME-MAP.md) (migration targets), [`docs/MAAT-RUNTIME-SPEC.md`](docs/MAAT-RUNTIME-SPEC.md) (positioning), [`docs/FORK-STRATEGY.md`](docs/FORK-STRATEGY.md) (upstream sync), [`docs/SYSTEM_ARCHITECTURE.md`](docs/SYSTEM_ARCHITECTURE.md) (layout).
+- **MAAT Immune (runtime hooks):** [`packages/coding-agent/docs/maat-immune-hooks.md`](packages/coding-agent/docs/maat-immune-hooks.md) — extension + sacred path enforcement boundary.
 - **Internals:** Package names on disk and npm may still match upstream until a scoped migration; the CLI may still be invoked as `pi` until binaries are renamed. Surfaces and docs use **MAAT** naming first.
+- **Workspace fact:** The repo-root **`package.json`** **`name`** may still read **`pi-monorepo`** while the rename proceeds — authoritative table: [`docs/RENAME-MAP.md`](docs/RENAME-MAP.md). External audits should cite that file, not assume the root name matches the GitHub repo title.
 
 ## Packages
 
